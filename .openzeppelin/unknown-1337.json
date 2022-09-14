@@ -9,6 +9,11 @@
       "address": "0x427E63c04f8F92E8fFaB7124e3ab11C9954cc24C",
       "txHash": "0x16ff70a0753da9985460c9983ad45cbc4a4e310325247342a039046fe4fd2214",
       "kind": "transparent"
+    },
+    {
+      "address": "0x8967aa9afee1c6C31081a2C0C7B9083435AB7063",
+      "txHash": "0x2f62fd753b10655d847d287e95631d7d1a37b4565306ce528d5b948267cd5107",
+      "kind": "transparent"
     }
   ],
   "impls": {
@@ -19,6 +24,25 @@
         "storage": [
           {
             "contract": "Box",
+            "label": "_value",
+            "type": "t_uint256",
+            "src": "../project:/contracts/Box.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    },
+    "c7e8a23064d1bef43162090cc1af8468c94307ac785f86c85f9204580b223ed2": {
+      "address": "0x6E8ba705187DaCF0946F252C0EF3996fA266f030",
+      "txHash": "0x54da76d86e0b763f12fd94ae87b986e5d59238ce22c9bb8fd2307b83f9ae5ec1",
+      "layout": {
+        "storage": [
+          {
+            "contract": "BoxV2",
             "label": "_value",
             "type": "t_uint256",
             "src": "../project:/contracts/Box.sol:6"
